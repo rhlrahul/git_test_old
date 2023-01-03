@@ -16,4 +16,12 @@ git rm --cached FileA.txt - to untrack the file, then
 git add .
 
 to create new branch and switch to it
-git checkout -b DevBranch
+git checkout -b DevBranch 
+
+to merge branches
+git merge DevBranch
+
+to connect to remote Github
+git remote add origin https://github.com/rhlrahul/git_test.git
+git branch -M main
+git push -u origin main
