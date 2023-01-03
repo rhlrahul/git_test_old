@@ -2,3 +2,6 @@ git --version
 git init
 git config --global user.name "Rahul Sinha"
 git config --global user.emai "rhl.rahul.sinha@gmail.com"
+git add .
+git status
+git commit -m "This is initial commit"
